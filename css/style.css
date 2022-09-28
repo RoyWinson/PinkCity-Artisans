@@ -1,0 +1,457 @@
+
+/********************************General*************************************/
+
+
+
+main /* background of the body*/
+{
+	background-color: white;
+	margin:auto;
+	padding:16px;
+	width: 900px;
+}
+
+body
+{
+	background-color: #C1C3C1;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+p{font-family: serif;}
+
+h1
+{
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+p.center{text-align: center;} /*align video*/
+
+.PinkCity /*pics*/
+{
+	height: 100px;
+	width:100px
+}
+
+.container /*head menu*/
+{
+	display: grid;
+	grid-template-columns: 220px 180px 320px 250px;
+
+}
+
+.Shop /*shop pic*/
+{
+	width: 900px;
+	position: relative;
+	top: 20px;
+}
+
+p
+{
+	text-align: center;
+	font-size: 28px;
+	position: relative;
+	top: 15px;
+}
+
+.grid /*item position*/
+{
+	border: 2px #aa5230;
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 300px 300px;
+	place-content: space-between space-evenly;
+}
+
+.itemA, .itemB, .itemC, .itemD, .itemE, .itemF, .itemG, .itemH, .itemI, .itemJ, .itemK, .itemL /*item form in shop and home accesory*/
+{
+	width: 150px;
+	height: 250px;
+	background-color: #D9D9D9;
+}
+
+.itemAbis, .itemBbis, .itemCbis, .itemDbis, .itemEbis, .itemFbis, .itemGbis, .itemHbis, .itemIbis, .itemJbis, .itemKbis, .itemLbis /*item pics in shop and home accesory*/
+{
+	width: 150px;
+	height: 150px;
+}
+
+.itemEbis, .itemJbis /*item pic in shop and home accesory*/
+{
+	width: 150px;
+	height: 150px;
+}
+
+p.ProductA, p.ProductB, p.ProductC, p.ProductD, p.ProductE, p.ProductF, p.ProductG, p.ProductH, p.ProductI, p.ProductJ, p.ProductK, p.ProductL /*item name in shop and home accesory*/
+{
+	font-size: 15px;
+	position: relative;
+	top: 5px;
+}
+
+p.priceA, p.priceB, p.priceC, p.priceD, p.priceE, p.priceF, p.priceG, p.priceH, p.priceI, p.priceJ, p.priceK, p.priceL /*item price in shop and home accesory*/
+{
+	font-size: 15px;
+	position: relative;
+	top: 5px;
+}
+
+/*
+p.CartA, p.CartB, p.CartC, p.CartD, p.CartE, p.CartF, p.CartG, p.CartH, p.CartI, p.CartJ, p.CartK, p.CartL 
+{
+	font-size: 15px;
+	font-size: 15px;
+	position: relative;
+	top: -10px;
+	border: 2px solid;
+}*/
+a.add{
+  font-size: 15px;
+  border: 2px solid;
+}
+
+a /*link for the other html page*/
+{
+	text-decoration: none;
+	color: black;
+}
+
+p.footer{font-size: 20px;} /*contact*/
+
+
+/******************** Item page when we click on (new html page) *******************/
+
+.grid-bis 
+{
+	border: 2px #aa5230;
+	display: grid;
+	grid-template-columns: 300px;
+	grid-template-rows: 350px 350px;
+}
+
+.item-A, .item-B, .item-C, .item-D, .item-E, .item-F, .item-G, .item-H, .item-I, .item-J, .item-K, .item-L 
+{
+	width: 300px;
+	height: 450px;
+	background-color: #D9D9D9;
+	position: relative;
+	top: 150px;
+	left: 150px;
+}
+
+.item-Abis, .item-Bbis, .item-Cbis, .item-Dbis, .item-Fbis, .item-Gbis, .item-Hbis, .item-Ibis, .item-Jbis, .item-Kbis, .item-Lbis 
+{
+	width: auto;
+	height: 300px;
+}
+
+.item-Ebis, .item-Jbis
+{
+	width: 300px;
+	height: 300px;
+}
+
+p.Product-A, p.Product-B, p.Product-C, p.Product-D, p.Product-E, p.Product-F, p.Product-G, p.Product-H, p.Product-I, p.Product-J, p.Product-K, p.Product-L 
+{
+	font-size: 30px;
+	position: relative;
+	left: 550px;
+}
+
+p.price-A, p.price-B, p.price-C, p.price-D, p.price-E, p.price-F, p.price-G, p.price-H, p.price-I, p.price-J, p.price-K, p.price-L
+{
+	font-size: 25px;
+	position: relative;
+	top: -5px;
+}
+
+p.Cart-A, p.Cart-B, p.Cart-C, p.Cart-D, p.Cart-E, p.Cart-F, p.Cart-G, p.Cart-H, p.Cart-I, p.Cart-J, p.Cart-K, p.Cart-L
+{
+	font-size: 15px;
+	font-size: 15px;
+	position: relative;
+	top: -5px;
+	border: 2px solid;
+
+}
+
+/***************************************************** MY BAG page ***************************************************/
+
+#titre-panier 
+{
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: "Allerta Stencil", sans-serif;
+}
+
+#basket-fiche 
+{
+  width: 85%;
+  align-items: flex-start;
+}
+
+#basketProduct 
+{
+  width: 100%;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 16%), 0 2px 5px rgb(0 0 0 / 26%);
+  padding: 20px;
+}
+
+#blocImage 
+{
+  width: 30%;
+}
+
+#blocImage > img 
+{
+  width: 100%;
+  height: auto;
+}
+
+#blocProduct 
+{
+  width: 30%;
+}
+
+#bloc-change-product 
+{
+  width: 35%;
+}
+
+.bouton-moins,.bouton-plus 
+{
+  border: 1px solid rgba(231, 65, 43, 0.178);
+  background-color: white;
+  color: rgb(231, 65, 43);
+  font-size: xx-large;
+  width: 40px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.product-quantite 
+{
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.267);
+  width: 50px;
+  height: 50px;
+}
+
+.flex-column-centre 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start 
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-around 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-column-around 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#basket-recap
+{
+  width: 30%;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 16%), 0 2px 5px rgb(0 0 0 / 26%);
+  padding: 20px;
+}
+
+.titre-recap 
+{
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "Allerta Stencil", sans-serif;
+  line-height: 1.4em;
+}
+
+.trait-design 
+{
+  width: 80%;
+  border-bottom: 2px solid rgb(231, 65, 43);
+}
+
+.continuer 
+{
+  width: 80%;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 400;
+  font-family: "Allerta Stencil", sans-serif;
+  color: rgb(231, 65, 43);
+}
+
+#continueCommande 
+{
+  text-decoration: none;
+  font-size: large;
+  width: 50%;
+  height: 50px;
+  background-color: rgb(231, 65, 43);
+  color: white;
+  border: rgb(231, 65, 43);
+  cursor: pointer;
+}
+
+#continueCommande:hover 
+{
+  background-color: #868c4d;
+}
+
+.flex-column-centre 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-between 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column-around 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-column-start 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-centre 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-around 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-start 
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.size80 
+{
+  width: 80%;
+}
+
+#injectJs 
+{
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#basket-recap 
+{
+  width: 30%;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 16%), 0 2px 5px rgb(0 0 0 / 26%);
+  padding: 20px;
+}
+
+
+/******************************************************** form *******************************/
+
+form > h2, input 
+{
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+form > div > div 
+{
+  height: 150px;
+}
+
+form > div > div > label 
+{
+  width: 70px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+#prenom 
+{
+  margin-right: 20px;
+}
+
+.champ 
+{
+  width: 300px;
+  height: 40px;
+  border: 1px solid #868c4d;
+  background-color: aliceblue;
+  appearance: none;
+}
+
+form > div > div > span 
+{
+  width: 300px;
+  color: red;
+}
+
+.bouton-commande 
+{
+  appearance: none;
+  font-size: larger;
+  width: 30%;
+  height: 50px;
+  background-color: rgb(231, 65, 43);
+  color: white;
+  border: rgb(231, 65, 43);
+  cursor: pointer;
+}
+
+.bouton-commande:hover 
+{
+  color: white;
+  background-color: #868c4d;
+  cursor: pointer;
+}
